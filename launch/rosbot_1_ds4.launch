@@ -1,0 +1,7 @@
+<launch>
+
+    <node name="joy" pkg="joy" type="joy_node" output="screen"/>
+    <node name="sub" pkg="rosbot_1" type="sub" output="screen"/>
+    <node name="pub" pkg="rosbot_1" type="pub_ds4" output="screen"/>
+
+</launch>

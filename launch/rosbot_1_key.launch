@@ -1,0 +1,6 @@
+<launch>
+
+    <node name="sub" pkg="rosbot_1" type="sub" output="screen"/>
+    <node name="pub" pkg="rosbot_1" type="pub" output="screen"/>
+
+</launch>
